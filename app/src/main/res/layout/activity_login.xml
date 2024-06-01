@@ -20,16 +20,16 @@
 
     <EditText
         android:id="@+id/loginEmailEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
         android:hint="Enter your email address"/>
 
     <EditText
         android:id="@+id/loginPasswordEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:hint="Enter your password"/>
