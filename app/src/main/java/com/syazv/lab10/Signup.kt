@@ -35,7 +35,6 @@ class Signup : AppCompatActivity() {
                 binding.signupPasswordEditText.text.toString())
         }
 
-        db = Firebase.firestore
     }
 
     fun createUser(email:String, password:String){
